@@ -1,0 +1,1 @@
+x = int(input("Enter No. Of Rows : "))

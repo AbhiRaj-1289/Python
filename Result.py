@@ -6,7 +6,7 @@ e = int(input("Enter Marks in English : "))
 sum = int(a+b+c+d+e)
 print("Total Marks =",sum)
 percentage = (sum/500)*100
-if percentage > 80:
+if percentage >= 80:
     print("1st Division")
 elif percentage < 80 and percentage > 60:
     print("2nd Division")
