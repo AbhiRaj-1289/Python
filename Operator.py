@@ -2,10 +2,10 @@
 y = 'ing'
 mylist = [10,20,30,40]
 mystring = 'Coding'
-if(x is not  mylist):
+if(x is not mylist):
 	print("x is not present inn mylist")
 else:
-	print("x is present inn mylist")
+	print("x is present in mylist")
 if(y in mystring):
 	print("y is present in mystring")
 else:

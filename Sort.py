@@ -13,9 +13,14 @@ print(tuple1)
 tuple1 = (1,2,3)
 tuple2 = ('Python','Django')
 tuple3 = (tuple1,tuple2)
-print(tuple3[1][1])'''
+print(tuple3[1][1])
 tuple1 = ('Python','for','freshers')
 a,b,c = tuple1
 print(a)
 print(b)
-print(c)
+print(c)'''
+name = ["Manish","Naveen","Shefali","Amrita"]
+roll_no = [24,17,35,21]
+course = ["B.Com","M.Sc.","B.Tech.","M.Tech."]
+zip_obj = zip(name,roll_no,course)
+print(list(zip_obj))

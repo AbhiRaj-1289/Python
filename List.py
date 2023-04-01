@@ -47,7 +47,8 @@ for i in list1:
 a = 45
 print(f"value of a is {a}")'''
 listA = [1,2,3,4]
-listB = list(listA)
+#listA = listB ---> Shallow Copy
+listB = list(listA) #----> Deep Copy
 listA[2] = 100
 print(f"listA - > {listA} at {id(listA)}")
 print(f"listB - > {listB} at {id(listB)}")
