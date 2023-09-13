@@ -8,7 +8,7 @@ def print_board():
 	print(row2)
 	print(row3)
 	print()
-def  player_move(icon):
+def player_move(icon):
 	if icon == "X":
 		player = 1
 	elif icon == "O":
