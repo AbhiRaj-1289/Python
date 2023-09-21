@@ -8,11 +8,6 @@ def add(n1,n2):
 def sub(n1,n2):
     return n1 - n2
 
-sss
-s
-s
-s
-assert sub()
 #Multiply
 def multiply(n1,n2):
     return n1 * n2
