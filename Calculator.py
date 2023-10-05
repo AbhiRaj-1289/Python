@@ -1,4 +1,5 @@
 #Calculator
+from CalcArt import logo
 
 #Add
 def add(n1,n2):
@@ -23,24 +24,26 @@ operation = {
              "*": multiply, 
              "/": div
              }
+print(logo)
 
-num1 = int(input("Enter first number : "))
-num2 = int(input("Enter second number : "))
+def calculator():
+    num1 = float(input("Enter first number : "))
+    for symbol in operation:
+        print(symbol)
+    if_continue = True
 
+    while if_continue:
+        operation_symbol = input("Pick any operation : ")
+        num2 = float(input("Enter next  number : "))
+        calculation_function = operation[operation_symbol]
+        answer = calculation_function(num1,num2)
 
-for symbol in operation:
-    print(symbol)
-    
-operation_symbol = input("Pick any operation from above : ")
+        print(f"{num1} {operation_symbol} {num2} = {answer}")
 
-calculation_function = operation[operation_symbol]
-first_answer = calculation_function(num1,num2)
+        if input(f"Type 'y' to continue calculating with {answer}, or type 'n' to start a new calculation.: ") == "y":
+            num1 = answer
+        else:
+            if_continue = False
+            calculator()
 
-print(f"{num1} {operation_symbol} {num2} = {first_answer}")
-
-operation_symbol = input("Pick any operation from above : ")
-num3 = int(input("Enter next number : "))
-calculation_function = operation[operation_symbol]
-second_answer = calculation_function(first_answer,num3)
-print(f"{first_answer} {operation_symbol} {num3} = {second_answer}")
-
+calculator()
