@@ -25,22 +25,6 @@ while not bidding_done:
     amount = int(input("What is your bid amount? Rs."))
 
     bids[name] = amount 
-    bids[name] = amount
-    bids[name] = amount
-    bids[name] = amount
-    bids[name] = amount
-    bids[name] = amount
-    bids[name] = amount
-    bids[name] = amount
-    bids[name] = amount
-    bids[name] = amount
-    bids[name] = amount
-    bids[name] = amount
-    bids[name] = amount
-    bids[name] = amount
-    bids[name] = amount
-    bids[name] = amount
-    bids[name] = amount 
 
     going = input("Are there more bidders? Type 'yes' or 'no'.\n")
     if going == "no":
