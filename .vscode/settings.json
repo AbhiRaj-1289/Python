@@ -1,4 +1,5 @@
 {
     "python.defaultInterpreterPath": "C:\\Users\\Abhinav\\AppData\\Local\\Programs\\Python\\Python310",
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+    "cmake.configureOnOpen": false
 }
