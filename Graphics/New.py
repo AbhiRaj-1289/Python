@@ -2,18 +2,18 @@ import turtle
 
 # Create a turtle screen
 screen = turtle.Screen()
-screen.bgcolor("red")
+screen.bgcolor("white")
 
 # Create a turtle object
 star_turtle = turtle.Turtle()
 star_turtle.shape("arrow")
-star_turtle.speed(5)  # Set the drawing speed (1 is slowest, 0 is fastest)
+star_turtle.speed(10)  # Set the drawing speed (1 is slowest, 0 is fastest)
 
 # Function to draw a star
 def draw_star(size):
     for _ in range(5):
         star_turtle.forward(size)
-        star_turtle.right(144)
+        star_turtle.right(120)
 
 # Move the turtle to a starting position
 star_turtle.penup()

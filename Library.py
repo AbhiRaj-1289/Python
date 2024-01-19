@@ -1,8 +1,11 @@
-elements = 0
+elements = 0 
+sum = 0 
 number_list = []
-print("Enter Elements : ")
-for i in range(0,11):
+n = int(input("Enter No. Of Elements : "))
+for i in range(n):
     elements  = int(input())
     number_list.append(elements)
+length = len(number_list)
 for values in number_list:
-    print(values)
+    sum =  sum + values
+print(f"Average = {sum/length}")    
