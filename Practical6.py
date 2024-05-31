@@ -1,3 +1,5 @@
+#Python code to check if a number is palindrome or not
+
 num = int(input("Enter a number : "))
 temp = num
 reverse = 0

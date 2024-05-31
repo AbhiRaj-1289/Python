@@ -1,3 +1,5 @@
+#Python code to print odd pyramid pattern
+
 x = int(input("Enter No. Of Rows : "))
 k = 0
 for i in range(1,x+1):

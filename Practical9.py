@@ -1,3 +1,5 @@
+#Python code to find GCD of two numbers
+
 x = int(input("Enter First Number : "))
 y = int(input("Enter Second Number : "))
 i = 1

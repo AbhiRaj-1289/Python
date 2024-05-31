@@ -1,3 +1,5 @@
+#Python code to print Table of Sin, Cos and Tan
+
 import math
 x = 0
 print("Table of Sins :")

@@ -1,3 +1,5 @@
+#Python code to print Temperature table(0-10)
+
 print("Printing Temperature Table : ")
 for c in range(0,10):
     f = (c*1.8)+32

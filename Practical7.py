@@ -1,3 +1,5 @@
+#Python code to print Fabonacci series upto n terms
+
 n = int(input("Enter number of terms : "))
 n1 = 0
 n2 = 1
