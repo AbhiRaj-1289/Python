@@ -27,5 +27,3 @@ if(size == "L"):
     if(extra_cheese == "Y" or extra_cheese == "y"):
         bill += 1
     print(f"Your final bill is: ${bill}")
-
-
