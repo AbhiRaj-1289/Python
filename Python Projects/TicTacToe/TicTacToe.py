@@ -49,7 +49,7 @@ while True:
 		break
 	player_move("O")
 	if win_condition("O"):
-		print_board("O")
+		print_board("O") # type: ignore
 		print("O Wins!")
 		break
 	elif is_draw():

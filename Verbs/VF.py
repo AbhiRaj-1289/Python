@@ -122,5 +122,6 @@ verb_forms = {
     "wake": ["V1 - Wake", "V2 - Woke", "V3 - Woken", "V4 - Waking", "V5 - Wakes"],
     "wear": ["V1 - Wear", "V2 - Wore", "V3 - Worn", "V4 - Wearing", "V5 - Wears"],
     "win": ["V1 - Win", "V2 - Won", "V3 - Won", "V4 - Winning", "V5 - Wins"],
-    "write": ["V1 - Write", "V2 - Wrote", "V3 - Written", "V4 - Writing", "V5 - Writes"]
+    "write": ["V1 - Write", "V2 - Wrote", "V3 - Written", "V4 - Writing", "V5 - Writes"],
+    "dance": ["V1 - Dance", "V2 - Danced", "V3 - Danced", "V4 - Dancing", "V5 - Dances"]
 }
