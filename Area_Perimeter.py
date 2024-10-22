@@ -29,19 +29,19 @@ if choice == 1:
         if input_value == 1:
             side = int(input("Enter The Side of Triangle: "))
             perimeter = side * 3
-            print("Perimeter of The Triangle:", perimeter)
+            print("Perimeter of The Triangle:", perimeter," unit")
         elif input_value == 2:
             side1 = int(input("Enter The First Side of Triangle: "))
             side2 = int(input("Enter The Second Side of Triangle: "))
             side3 = int(input("Enter The Third Side of Triangle: "))
             perimeter = side1 + side2 + side3
-            print("Perimeter of Triangle is:", perimeter)
+            print("Perimeter of Triangle is:", perimeter," unit")
         else:
             print("Invalid Input")
     elif choose == 4:
         radius = int(input("Enter The Radius Of Circle: "))
         perimeter = 2 * 3.14 * radius
-        print("Perimeter of Circle is:", perimeter)
+        print("Perimeter of Circle is:", perimeter," unit")
     else:
         print("Invalid Input")
 
@@ -56,15 +56,15 @@ elif choice == 2:
         length = int(input("Enter Length of Rectangle: "))
         breadth = int(input("Enter Breadth of Rectangle: "))
         area = length * breadth
-        print("Area of Rectangle is:", area)
+        print("Area of Rectangle is:", area,"sq. units")
     elif choose == 2:
         side = int(input("Enter Side of Square: "))
         area = side * side
-        print("Area of Square is:", area)
+        print("Area of Square is:", area,"sq. units")
     elif choose == 3:
         radius = int(input("Enter The Radius Of Circle: "))
         area = 3.14 * radius * radius
-        print("Area of Circle is:", area)
+        print("Area of Circle is:", area,"sq. units")
     else:
         print("Invalid Input")
 
