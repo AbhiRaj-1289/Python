@@ -1,4 +1,5 @@
 # Simple calculator
+
 def add(x,y):
     return(x+y)
 def subtract(x,y):
@@ -34,5 +35,3 @@ while True :
     next_calculation = input("Let's do next calculation? (yes/no): ")
     if next_calculation == "no":
         break
-
-            
