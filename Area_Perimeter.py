@@ -21,23 +21,11 @@ if choice == 1:
         perimeter = side * 4
         print("Perimeter of Square:", perimeter)
     elif choose == 3:
-        print("Press 1 if Triangle's sides are of the same length.")
-        print("Press 2 if Triangle's sides are of different lengths.")
-        
-        input_value = int(input("Enter Your Choice: "))
-
-        if input_value == 1:
-            side = int(input("Enter The Side of Triangle: "))
-            perimeter = side * 3
-            print("Perimeter of The Triangle:", perimeter," unit")
-        elif input_value == 2:
             side1 = int(input("Enter The First Side of Triangle: "))
             side2 = int(input("Enter The Second Side of Triangle: "))
             side3 = int(input("Enter The Third Side of Triangle: "))
             perimeter = side1 + side2 + side3
             print("Perimeter of Triangle is:", perimeter," unit")
-        else:
-            print("Invalid Input")
     elif choose == 4:
         radius = int(input("Enter The Radius Of Circle: "))
         perimeter = 2 * 3.14 * radius
